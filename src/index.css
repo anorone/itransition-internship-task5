@@ -38,3 +38,13 @@ body {
   width: 100%;
   height: 50px;
 }
+
+.mailer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.mailer button {
+  height: 45px;
+}
