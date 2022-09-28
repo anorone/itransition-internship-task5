@@ -3,27 +3,23 @@ import SubmitButton from './SubmitButton';
 
 function EntryForm() {
   return (
-    <form method="GET" action="/handler">
-      <h2 className="heading">Who are you?</h2>
-      <TextField
-        id="outlined-basic"
-        name="user"
-        label="Write your name"
-        variant="outlined"
-        placeholder="Susanne"
-        margin="normal"
-        fullWidth
-        focused
-        required
-      />
-      <EntryButton
-        className="entry-button"
-        type="submit"
-        variant="contained"
-      >
-        Enter
-      </EntryButton>
-    </form>
+    <section className="entry-section">
+      <form method="GET" action="/handler">
+        <h2 className="heading">Who are you?</h2>
+        <TextField
+          id="entry-field"
+          name="user"
+          label="Write your name"
+          variant="outlined"
+          placeholder="Susanne"
+          margin="normal"
+          fullWidth
+          focused
+          required
+        />
+        <SubmitButton text="Enter" />
+      </form>
+    </section>
   );
 }
 
