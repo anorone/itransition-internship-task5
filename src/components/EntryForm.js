@@ -1,9 +1,5 @@
-import styled from '@emotion/styled';
-import { TextField, Button } from '@mui/material';
-
-const EntryButton = styled(Button)({
-  fontSize: 16
-});
+import { TextField } from '@mui/material';
+import SubmitButton from './SubmitButton';
 
 function EntryForm() {
   return (
