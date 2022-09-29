@@ -1,5 +1,5 @@
 import { TextField } from '@mui/material';
-import SubmitButton from './SubmitButton';
+import SubmitButton from './SubmitButton.js';
 
 function EntryForm() {
   return (

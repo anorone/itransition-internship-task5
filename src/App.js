@@ -1,5 +1,5 @@
-import EntryForm from './components/EntryForm';
-import Mailer from './components/Mailer';
+import EntryForm from './components/EntryForm.js';
+import Mailer from './components/Mailer.js';
 
 function App() {
   return (
