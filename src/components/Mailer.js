@@ -50,7 +50,7 @@ function Mailer({ isHidden }) {
         />
         <SubmitButton text="Send" />
       </form>
-      <div className="info" hidden={isInfoHidden}>Your message have been sent successfully</div>
+      <div className="info" hidden={isInfoHidden}>Your message has been sent successfully</div>
     </section>
   );
 }
