@@ -5,6 +5,7 @@ function Mailer() {
   return (
     <section hidden={true}>
       <form className="mailer" method="POST" action="">
+        <h2 className="heading">Write someone you like</h2>
         <Autocomplete
           id="msg-recipient"
           options={['Bob', 'Ann', 'Lisa', 'Max']}

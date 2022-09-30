@@ -30,8 +30,13 @@ body {
 
 .heading {
   margin: 0;
+  text-align: center;
+}
+
+.heading_main {
   margin-bottom: 10px;
   font-size: 64px;
+  text-align: left;
 }
 
 .submit-button {

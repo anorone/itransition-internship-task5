@@ -5,7 +5,7 @@ function EntryForm() {
   return (
     <section className="entry-section">
       <form method="GET" action="/handler">
-        <h2 className="heading">Who are you?</h2>
+        <h2 className="heading heading_main">Who are you?</h2>
         <TextField
           id="entry-field"
           name="user"
