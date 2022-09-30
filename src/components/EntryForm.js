@@ -1,10 +1,15 @@
 import { TextField } from '@mui/material';
 import SubmitButton from './SubmitButton.js';
 
-function EntryForm() {
+function EntryForm({ isHidden, showMailer }) {
+  function onSubmit(evt) {
+    evt.preventDefault();
+    showMailer();
+  }
+
   return (
-    <section className="entry-section">
-      <form method="GET" action="/handler">
+    <section className="entry-section" hidden={isHidden}>
+      <form method="GET" action="/handler" onSubmit={onSubmit}>
         <h2 className="heading heading_main">Who are you?</h2>
         <TextField
           id="entry-field"

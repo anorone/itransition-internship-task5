@@ -1,9 +1,9 @@
 import { Autocomplete, TextField } from "@mui/material";
 import SubmitButton from './SubmitButton.js';
 
-function Mailer() {
+function Mailer({ isHidden }) {
   return (
-    <section hidden={true}>
+    <section hidden={isHidden}>
       <form className="mailer" method="POST" action="">
         <h2 className="heading">Write someone you like</h2>
         <Autocomplete
