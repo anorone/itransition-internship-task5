@@ -28,6 +28,7 @@ function Mailer() {
         />
         <SubmitButton text="Send" />
       </form>
+      <div className="info" hidden={true}>Your message have been sent successfully</div>
     </section>
   );
 }
